@@ -1,0 +1,44 @@
+what did i learn today 
+js 
+why js
+multi paradigm (meaning it can have multiple models procedural, functional, oops) and multi purpose
+process = program running 
+variable = bucket in which you store values allocates some memory to store
+data types 
+    primitive = atomic in nature 
+        symbols 
+        null
+        undefined 
+        number
+        strings
+        boolean 
+    
+    non primitive = complex and can have multiple primitive data types
+        objects 
+        let car = {
+            name: rajan
+            status : {
+                health : bad,
+                back : pain
+            }
+        }
+
+special symbols 
+\n add a line console.log("hello\nworld ")
+\t add a tab space
+\\ to add a backslash
+
+
+arithmetic operators
+logic gates/operators and coercion(js can change the data type according to its set of rules)
+
+and && ampersand  also like true true = true 
+or || pipe
+not ! exclamation true become false and vice versa
+also bit nor by tilde ~
+
+
+typeof(10). = will give the type in strings example "numbers"
+typeof(null) = object 
+
+
