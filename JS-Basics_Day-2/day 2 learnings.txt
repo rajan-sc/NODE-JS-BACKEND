@@ -1,0 +1,95 @@
+unary operators 
+    a++ postfix asiign then fix 
+    --a assign then fix 
+    +a change the type to no. then positive
+    -a negative 
+
+ternary operators 
+    to evaluate or compare two expressions
+    let y = ((10>5) ? (10):(7)).  // first true second false
+    y = 10
+
+loops 
+for 
+    for(i=1; i<=10, i++){console.log("hello")}  // print hello 10 times
+
+// for strings and arrays 
+for of
+    for(let value of array){print}. // print the contents of array
+
+
+while   
+    a = 1
+    while(a <=10){
+        do something;
+        increment or decrement
+    }
+do while
+
+do {
+    do something once then go to while 
+}
+while(condition){
+    blah blah
+}
+
+
+Pattern = break the problems into smaller parts and solve them individually
+
+equality operators = 
+== type check 
+    compares types if true and send to ===
+    else then coercion
+
+=== type check 
+same return true 
+else false
+
+
+conditional statements =
+
+if (condition){
+    do something
+}
+elif
+else{
+
+}
+
+switch case statements=
+
+a = "Rajan"
+
+switch (a) {
+    case "Rajan" : 
+    console.log("hello")
+    break;
+
+    case "rohan" : 
+    console.log("hello")
+    break;
+
+    default:
+    console.log("not mandatory if not pressent will return nothing")
+
+}
+
+
+// it is case sensitive
+// use this compare to conditional when simple evaluate and not branching ones
+
+
+
+Array = array is a data structure in the the memory in which values are stored in linear contagious orientation.
+example = images rgb 2d array combined makes 3d arrray
+
+
+object transverse 
+
+see objects 
+
+
+mainly arr["name"]. or arr.name will return same output 
+are mutable can update or add pair 
+also delete the key value pair 
+only access the keys to find values 
