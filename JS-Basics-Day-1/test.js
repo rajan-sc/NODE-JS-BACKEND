@@ -4,4 +4,15 @@ var phone = {
     cost : "999999"
 }
 
-console.log("Name of the phone is",phone.i_name);
+ let l = 1
+ let n = 2
+ let i = 3
+
+ if (l>n){
+    if(l>i){
+        if
+    }
+ }
+ else {
+    console.log("odd")
+ }

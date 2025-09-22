@@ -45,7 +45,7 @@ undefined
 */
 
 //example 
-console.log(10 && 6); // ytf it gives 6 as output 
+console.log(10 && 6); // ytf it gives 6 as output because where it checks and return where it stuck
 
 
 
