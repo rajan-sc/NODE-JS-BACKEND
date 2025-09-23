@@ -92,5 +92,16 @@ while i <= j:
 print(arr)
 
 
+dict = {}
+txt = "javascript"
+
+for i in txt:
+    if dict[i] in dict:
+        dict[i] += 1
+    else:
+        dict[i] = 1
+
+print(dict[i])
+
 
 
