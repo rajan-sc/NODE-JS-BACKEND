@@ -1,0 +1,55 @@
+array methods == return a new array without modifying the original array
+arr.map(fn) go throuch each element in array and perform function
+arr.reduce(fn) returns the accumulated result
+arr.filter() takes a comparison function and return array
+arr.sort(take comparison function) sort the array in lexographical way
+
+
+hof = higher order function 
+functions which return a function or take a function as a argument
+
+
+callback = are the function which we pass as an argument in other functions
+call back hell = readabilty issue and debugging issue 
+
+
+inversion of control = say you write a callback and gives that to other function and how they are calling it you dont know 
+example = 
+team a 
+payment function 
+have a functionality to charge for the order 
+
+team b 
+send a callback to the team a code but we dont know how they implement that function 
+we don't know they change it functionality or it may have some errors 
+or by mistake they charge the user twice 
+
+it is high priority problem
+
+
+async nature of js 
+js = synchronous and single threaded 
+it will execute valid code acc to ecmascript docs first then move on to other 
+
+runtime provides the async nature 
+
+example 
+for loop (hi)
+setTimeout(fn("hello"), 3000) // take fn and time (delay time)
+setTimeout("fast",0)
+console.log("hi")
+
+output 
+hi 
+hi
+fast
+hello 
+
+why this happens ?
+call stack = where the code block goes to execute
+runtime = node or browser where async code goes to execute example setTimeout 3000 and 0
+when the code will execute it will go to runtime for execution and sent that to the event queue for execution 
+
+event loop == check the callstack is empty and global code is done 
+
+async will execute when event loop is done with checking call stack empty and global code is done
