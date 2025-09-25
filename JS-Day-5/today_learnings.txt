@@ -1,0 +1,22 @@
+iov 
+promises 
+    - js objects 
+    - acts as placeholder
+    - when promise done we can use the result for new function or acc
+    to the reject or resolve 
+   let n =  new promise(function exec(resolve, reject){})
+
+
+n.then(fullfilmenthandler, rejectionhandler) // both are handler fnx
+
+microevent queue // where handler fnx go
+
+macroevent/ callback queue where async code go to execute
+
+after checking event loop 
+
+
+
+
+
+
