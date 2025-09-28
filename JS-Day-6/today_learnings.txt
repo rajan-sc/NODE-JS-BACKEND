@@ -1,0 +1,57 @@
+chaining promises and callbacks
+
+closures : it is a property 
+    a closure is when a function remembers the variable from the scope it was created even after the scope has fininshed executing
+    example :
+    outer function
+        idx = 0
+        inner function 
+            blah blah do something with idx
+            let say idx++
+            return idx
+    return inner function;
+
+now if you call the innerfunction it remembers the variable idx from the scope of outerfunction
+// innerfunction will check the closure for value idx before checking in the global scope.
+// That's why it didn't throws the error even when there is no idx in the global scope
+
+
+Imperative programming language : you need tell a function how and what to do something
+
+Declarative : You just need to tell what to do example- SQL like filtering the data to get desired output
+
+Iterators:
+Iterator is an object which defines a sequence and potentially return value upon its termination
+    
+    Two properties:
+
+    value = next value in sequence
+
+    done = check the sequence is empty or not // true for empty and false for vice versa
+
+    custom Iterator gives psudo Declarative nature 
+
+
+Generators:
+Generator are functions which don't execute immediately at time of calling
+    they start executing with the next() function and execute till they see yield keyword
+    halts momentarily when the reach "yield" keyword
+    and return/output the value of yield and whether there is a yield below or not if yes done: false 
+    when "return 10" keyword the code below doesn't matter
+
+
+    
+
+    property {value: 1, done:false}
+
+    to see check generator.js
+
+
+
+
+
+
+
+
+
+
